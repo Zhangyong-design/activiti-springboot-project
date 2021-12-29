@@ -3,9 +3,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.111.149.199:3306/act_spring_boot_web?useUnicode=true&characterEncoding=utf8&&nullCatalogMeansCurrent=true
-    username: root
-    password: c8a8023.
+    url: jdbc:mysql://IP:端口号/act_spring_boot_web?useUnicode=true&characterEncoding=utf8&&nullCatalogMeansCurrent=true
+    username: xxx
+    password: xxx
   activiti:
     #1.flase： 默认值。activiti在启动时，会对比数据库表中保存的版本，如果没有表或者版本不匹配，将抛出异常
     #2.true： activiti会对数据库中所有表进行更新操作。如果表不存在，则自动创建
